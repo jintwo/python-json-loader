@@ -33,5 +33,5 @@ setup(
     version=json_loader.__version__,
     url='http://github.com/jintwo/python-json-loader',
     packages=find_packages(),
-    tests_require=['pytest'],
+    tests_require=['pytest', 'tox'],
     cmdclass={'test': Tox})
